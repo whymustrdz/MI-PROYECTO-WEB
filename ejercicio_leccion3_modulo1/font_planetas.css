@@ -1,0 +1,19 @@
+h1{
+    font-family: 'Teko', sans-serif; font-size: 70px;
+    text-shadow: 0.088rem 0.088rem 0.5rem #033db9
+}
+
+h2{
+    font-family: 'Teko', sans-serif; font-size: 40px;
+}
+
+ul{
+    list-style: none;
+    display: flex;
+    justify-content: space-around;
+    font-family: 'Teko', sans-serif; font-size: 35px;
+    text-shadow: 0.088rem 0.088rem 0.5rem #6103b9;
+    background-color: rgba(133, 118, 219, 0.2);
+    padding: 20px; border-radius: 40rem;
+}
+
