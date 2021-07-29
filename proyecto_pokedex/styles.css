@@ -1,0 +1,148 @@
+body{
+    font-family: Verdana;
+    margin: 0%;
+    background-image: url(images/p_background.png);
+    background-size: cover;
+}
+header {
+  background-color: rgb(190, 18, 18);
+  color: white;
+  padding: 0 10%;
+}
+header > h1 {
+    display: inline-block;
+    margin-left: 30px;
+}
+#logo {
+    width: 60px;
+}
+nav{
+    margin: 10px 10%;
+}
+.link{
+    text-decoration:underline;
+    color: rgb(34, 23, 11);
+    font-size: 1.5rem;
+}
+.link:hover{
+    color: rgb(148, 13, 40);
+}
+nav > a{
+   padding: 0 10px;
+}
+#pokedex {
+    width: 750px;
+    margin: 50px auto 
+}
+#left{
+    width: 250px;
+    height: 300px;
+    float: left;
+    background-color: rgb(190, 18, 18);
+    border-top-left-radius: 30px;
+    border-bottom-left-radius: 30px;
+}
+#right{
+    width: 250px;
+    height: 250px;
+    margin-top: 50px;
+    background-color: rgb(190, 18, 18);
+    border-left-color: rgb(146, 17, 17);
+    border-left-style: solid;
+    border-left-width: 3px;
+    float: left;
+    border-bottom-right-radius: 30px;
+}
+.display{
+    border-color: #333131;
+    border-style: solid;
+    border-radius: 15px;
+    border-width: 5px;
+}
+#left > .display {
+    width: 180px;
+    height: 150px;
+    margin-left: 35px;
+    margin-top: 40px;
+    background-color: rgb(252, 252, 252);
+}
+#left > .display > img {
+    margin-left: 15px;
+    height: 100%;
+}
+.img-ditto:hover{
+  cursor:grabbing;
+  animation: rebote 2s ease infinite;
+}
+@keyframes rebote {
+    from {
+        transform: scale(1.29);
+    }
+
+    to {
+        transform: scale(1.15);
+    }
+}
+#dpad {
+    width: 60px;
+    height: 60px;
+    margin-top: 15px;
+    margin-left: 20px;
+    display: inline-block;
+}
+#dpad-top, #dpad-bottom {
+    width: 20px;
+    height: 20px;
+    margin-left: 20px;
+    background-color: #131212;
+}
+#dpad-horizontal {
+    width: 60px;
+    height: 20px;
+    background-color: #131212;
+}
+#btn-circle {
+    width: 50px;
+    height: 50px;
+    margin-left: 95px;
+    border-style: solid;
+    border-color: #0e11f1;
+    border-radius: 30px;
+    background-color: #0662eb;
+    display: inline-block;
+}
+#right > .display {
+    width: 180px;
+    height: 120px;
+    margin-left: 35px;
+    margin-top: 20px;
+    background-color: rgba(95, 236, 95, 0.89);
+    font-size: 12px;
+}
+#pad {
+    width: 148px;
+    height: 65px;
+    margin-left: 60px;
+    margin-top: 15px;
+}
+#pad > .btn {
+    width: 25px;
+    height: 25px;
+    background-color: #0662eb;
+    display: inline-block;
+    border-style: solid;
+    border-color: #181a81;
+    border-width: 2px;
+    border-radius: 3px;
+}
+ul{
+    margin: 0;
+    padding: 0;
+}
+li{
+    list-style-type: none;
+}
+li > p {
+    margin: 0 5px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
