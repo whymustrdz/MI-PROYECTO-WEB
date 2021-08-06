@@ -37,6 +37,7 @@ ol,ul{
 	-ms-flex-direction: column;
 	flex-direction: column;
 	align-items: center;
+	margin-left: 170px;
 }
 #main > .inner {
 	position: relative;
