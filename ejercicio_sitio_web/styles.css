@@ -78,12 +78,48 @@ a:hover{
     padding-bottom: 50px;
 }
 /* ------------------------------------------- */
+  
 .my-image{
 	height: 600px;
     display: block;
     margin-left: auto;
     margin-right: auto;
 }
+.container {
+    position: relative;
+}
+.overlay {
+    position: absolute;
+    background-color: #8064f121;
+    bottom: 12px;
+    left: -10px;
+    right: 0;
+    border-radius: 50px;
+    overflow: hidden;
+    width: 0;
+    height: 100%;
+    transition: .5s ease;
+}
+  
+.container:hover .overlay {
+    width: 100%;
+}
+  
+.text {
+    white-space: nowrap; 
+    color: #3f3f99;
+    font-family: 'Concert One', cursive;
+    font-size: 50px;
+    text-shadow: 3px 2px 0px #1f1f22;
+    position: absolute;
+    overflow: hidden;
+    top: 48%;
+    left: 49%;
+    transform: translate(-50%, -50%);
+    -ms-transform: translate(-50%, -50%);
+}
+/* ANIMACIÓN ANTERIOR (NO UTILIZADA)
+
 .overlay {
     position: absolute;
     bottom: -70px;
@@ -109,7 +145,9 @@ a:hover{
     transform: translate(-50%, -50%);
     -ms-transform: translate(-50%, -50%);
     text-shadow: 3px 2px 0px #1f1f22;
-}
+} 
+/* ------------------------------------------- */
+
 #penguin{
     width: 200px;
     height: 200px;
