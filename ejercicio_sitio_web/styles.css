@@ -1,0 +1,169 @@
+ /* ---BEGIN: ESTILOS CSS------------------------------------  */
+ /* MAPA DE ARCHIVO
+--------------------------------------
+- NAV BAR
+- MAIN 
+- IMAGENES + ANIMACIÓN
+- BOTONES
+- TEXTO
+---------------------------------------*/
+body, html{
+    margin: 0;
+    padding: 0;
+}
+header{
+	width: 100%;
+	height: 70px;
+	background-color: #18121d;
+    position: sticky;
+    top: 0;
+}
+#navtittle{
+	position: absolute;
+	padding: 3px;
+	float: left;
+	margin-left: 2%;
+	margin-top: 10px;
+	font-family: 'Concert One', cursive;
+	color: #6d6de2;
+    letter-spacing: 1.5pt;
+    font-size: 30pt;
+    text-shadow: 2px 2px 2px #050505;
+}
+span{
+	color: #ffffff;
+}
+#navtittle:hover{
+    color: rgb(255, 255, 255);
+	transition: 0.5s;
+}
+span:hover{
+    color: #6d6de2;
+	transition: 0.5s;
+}
+ul{
+	width: auto;
+	float: right;
+	margin-top: 5px;
+}
+li{
+	display: inline-block;
+	padding: 15px 30px;
+}
+a{
+	text-align: center;
+	color: #ffffff;
+	text-decoration: none;
+	font-family: 'Open Sans', sans-serif;
+	font-size: 1.2vw;
+}
+a:hover{
+	color: rgb(109, 117, 236);
+	transition: 0.5s;
+    text-shadow: 2px 2px 2px #050505d7;
+}
+.active{
+	color: #6c6ce2;
+	font-weight: bold;
+}
+/* ------------------------------------------- */
+.main{
+	background-color: #fbfafd;
+    margin-left: 30px;
+    margin-right: 30px;
+    margin-bottom: 30px;
+    margin-top: 30px;
+    padding-left: 20px;
+    padding-top: 12px;
+    padding-bottom: 50px;
+}
+/* ------------------------------------------- */
+.my-image{
+	height: 600px;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
+.overlay {
+    position: absolute;
+    bottom: -70px;
+    left: 600px;
+    right: 600px;
+    overflow: hidden;
+    width: auto;
+    height: 0;
+    transition: .5s ease;
+}
+.container:hover .overlay {
+    height: 60%;
+}
+.text {
+    white-space: nowrap; 
+    color: #3f3f99;
+    font-family: 'Concert One', cursive;
+    font-size: 50pt;
+    position: absolute;
+    overflow: hidden;
+    top: 12%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    -ms-transform: translate(-50%, -50%);
+    text-shadow: 3px 2px 0px #1f1f22;
+}
+#penguin{
+    width: 200px;
+    height: 200px;
+    vertical-align:middle;
+    margin:50px 0px;
+}
+/* ------------------------------------------- */
+.btn{
+	background-color: #6d6de2;
+	color: #18121d;
+	border: 3px solid #6d6de2;
+	border-radius: 12px;
+	transition-duration: 0.4s;
+	padding: 12px 28px;
+    font-family: 'Mulish', sans-serif;
+	font-size: 12pt;
+	font-weight: bolder;
+	text-shadow: 0.5px 0px 5px #7c7ee650;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
+.btn:hover {
+	background-color: #20112c;
+    border: 3px solid #20112c;
+	color: #6d6de2;
+	box-shadow: 0 8px 16px 0 rgba(66, 67, 110, 0.2), 0 6px 20px 0 rgba(94, 38, 184, 0.19);
+}
+/* ------------------------------------------- */
+#principal h1{
+    font-family: 'Mulish', sans-serif;
+    font-weight: 700;
+    font-size: 100pt;
+    color: #18121d;
+    text-shadow: 1px 1px 1px #2c254dbe;
+    margin-top: 1%;
+    text-align: center;
+    margin-block-end: -3%;
+}
+#principal h2{
+    font-family: 'Mulish', sans-serif;
+    font-weight: 600;
+    font-size: 40pt;
+    color: #18121d;
+    text-shadow: 1px 1px 1px #31274459;
+    text-align: center;
+}
+#principal p{
+    font-family: 'Mulish', sans-serif;
+    font-weight: 500;
+    font-size: 20pt;
+    color: #18121d;
+    text-shadow: 1px 1px 1px #31274459;
+    text-align: center;
+}
+/* ------------------------------------------- */
+ /* ---END: ESTILOS CSS------------------------------------  */
