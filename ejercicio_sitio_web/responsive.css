@@ -1,0 +1,95 @@
+/* ---BEGIN: ESTILOS CSS RESPONSIVE------------------------------------  */
+
+/* ---------------VER. SMARTPHONE------------- */
+@media screen and (max-width:700px){
+    body{
+    display: inline-block;
+    }
+    #navtittle {
+    padding: 16px;
+    margin-left: 30%;
+    font-size: 70px
+    }
+    .header{
+    width: 150vh;
+    height: 200px;
+    }
+    .navigation{
+    display: flex;
+    list-style-type: disc;
+    margin-block-start: 7em;
+    margin-block-end: 0em;
+    padding-left: 0px;
+    padding-right: 15%;
+    }
+    li {
+    display: block;
+    padding: 14px 14px;
+    }
+    .navigation a{
+    font-size: 40px;
+    padding-left: 51px;
+    padding-right: 0px;
+    }
+    main{
+        padding-right: 20px;
+    }
+    #principal h1{
+    font-size: 90pt;
+    margin-top: 1%;
+    margin-bottom: -63px;
+    }
+    #penguin {
+    width: 302px;
+    height: auto;
+    vertical-align: middle;
+    margin: 10px -27px;
+    }
+    #principal h2 {
+    font-size: 51pt;
+    }
+    #principal p{
+        font-size: 35pt;
+        margin-top: 94px;
+    }
+    .my-image{
+        height: 1200px;
+        width: -webkit-fill-available;
+        margin-top: -48px;
+    }
+    .text {
+    font-size: 111px;
+    }
+    .overlay {
+        height: 295px;
+    }
+    .btn{
+        font-size: 55pt;
+        border-radius: 35px;
+        margin-top: 86px;
+        font-family: 'Concert One';
+        font-weight: lighter;
+        box-shadow: 0 8px 16px 0 rgba(66, 67, 110, 0.2), 0 6px 20px 0 rgba(94, 38, 184, 0.19);
+    }
+}
+/* -----------VER. TABLET -----------------*/
+@media screen and (min-width:768px) and (max-width:1000px){
+    .navigation{
+        display: flex;
+        list-style-type: disc;
+        margin-block-start: 1em;
+        margin-block-end: 0em;
+        padding-left: 0px;
+        padding-right: 0%;
+    }
+    .navigation a{
+        font-size: 15px;
+        padding-left: 1px;
+        padding-right: 0px;
+    }
+    li {
+        padding: 15px 24px;
+    }
+}
+
+/* ---END: ESTILOS CSS RESPONSIVE------------------------------------  */

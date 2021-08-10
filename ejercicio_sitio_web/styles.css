@@ -62,10 +62,11 @@ a:hover{
 	transition: 0.5s;
     text-shadow: 2px 2px 2px #050505d7;
 }
+
 .active{
 	color: #6c6ce2;
 	font-weight: bold;
-}
+} 
 /* ------------------------------------------- */
 .main{
 	background-color: #fbfafd;
@@ -203,5 +204,4 @@ a:hover{
     text-shadow: 1px 1px 1px #31274459;
     text-align: center;
 }
-/* ------------------------------------------- */
  /* ---END: ESTILOS CSS------------------------------------  */
